@@ -1,12 +1,25 @@
-row = args[1];
-up = args[2];
-col = args[3];
+--Declare Variables
+args = {...};
 
-x = 0;
-y = 0;
-z = 0;
+_row = args[1];
+_up = args[2];
+_col = args[3];
+
+_x = 0;
+_y = 0;
+_z = 0;
+--End Variables
+
+--Main
+
+SmartDig()
+
+--End Main
 
 --Dig and Detect
 function SmartDig(row, col, up)
 	print(row,col,up);
+	for(r=0; r<row; r++)
+		print r;
+	end
 end
