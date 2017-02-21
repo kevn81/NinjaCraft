@@ -2,8 +2,8 @@
 args = {...};
 
 _row = args[1];
-_up = args[2];
-_col = args[3];
+_col = args[2];
+_up = args[3];
 
 _x = 0;
 _y = 0;
@@ -12,7 +12,7 @@ _z = 0;
 
 --Main
 
-SmartDig()
+SmartDig(_row, _col, _up)
 
 --End Main
 
