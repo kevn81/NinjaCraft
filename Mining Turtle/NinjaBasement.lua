@@ -1,6 +1,6 @@
-local row = arg1;
-local up = arg2;
-local col = arg3;
+local row = args[1];
+local up = args[2];
+local col = args[3];
 
 x = 0;
 y = 0;
