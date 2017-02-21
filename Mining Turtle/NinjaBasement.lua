@@ -12,7 +12,7 @@ _z = 0;
 
 --Main
 
-SmartDig(_row,_col,_up)
+SmartDig(_row, _col, _up)
 
 --End Main
 
